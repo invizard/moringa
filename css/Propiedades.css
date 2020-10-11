@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Sección Propiedades y Beneficios*/
+.foto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.foto-propiedades2{
+	width: 100%;
+	max-width: 570px;
+}
+
+.foto-propiedades2 img{
+	width: 100%;
+}
+
+/*Sección Propiedades*/
+
+.nosotros > .contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.conocenos{
+	padding: 15px 0px;
+	max-width: 870px;
+	
+}
+
+.conocenos p:nth-child(1){
+	font-size: 14px;
+	color: #3c1c22;
+	padding-bottom: 20px;
+}
+
+.conocenos h3{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: #2A724D;
+	font-size: 18px;
+}
+
+.conocenos p:nth-child(3){	
+	font-size: 14px;
+	color: #3c1c22;
+	padding-bottom: 20px;
+}
+
+.conocenos p:nth-child(4){	
+	font-size: 14px;
+	color: #3c1c22;
+	padding-bottom: 20px;
+}
+
+.conocenos p:nth-child(5){
+	font-size: 14px;
+	color: #3c1c22;
+	padding-bottom: 20px;
+}
+
+/*Fin Sección Propiedades*/
+
+
+.lista{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 14px;
+	color: #3c1c22;
+	padding-bottom: 20px;
+}
+
+.lista h3{
+	font-size: 18px;
+	color: #2A724D;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+
